@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "2GO1a1vgNrc",
+    "title": "Git & GitHub: Branching and the GitHub Workflow",
+    "url": "https://www.youtube.com/watch?v=2GO1a1vgNrc",
+    "start": 0.0,
+    "end": 64.9,
+    "text": "Alright, so we've talked about Git and GitHub, but how do you actually get things done on GitHub? How do you go about creating a project and introducing change? This is the GitHub workflow. There are five basic steps that will walk you through how to introduce change. So let's say you're working on a project. That project would be stored in a GitHub repository, and all of the code that was in production is on a branch called master. Now, that's important. We don't ever want to make changes directly onto master. So the first thing we do is create another branch. When you create a branch, it's creating what feels like an exact replica of master. So you have a safe sandbox to make changes without affecting anything that's in production. After you create your ranch, you make some commits. Now, commits are sort of like making changes. Whenever you make a set of changes, you make it commit and it stores all of those changes by taking a snapshot of your repository, your project at that point in time. So if this circles a commit, you could make one tiny change"
+  },
+  {
+    "video_index": 0,
+    "video_id": "2GO1a1vgNrc",
+    "title": "Git & GitHub: Branching and the GitHub Workflow",
+    "url": "https://www.youtube.com/watch?v=2GO1a1vgNrc",
+    "start": 64.9,
+    "end": 131.0,
+    "text": "or you could make a few. Git lets you choose. Once you've made some commits to introduce your changes, you'd open up a pull request on GitHub.com. In this pull request, you're comparing the branch you made with another branch, like master. It gives you an opportunity to look at the differences between those two branches and show other people the differences as well. Once you do that and they see the changes, then you can collaborate on them. They might give you a thumbs up and say it looks great, or they might have some critiques and suggestions. And that's good. That's the point, right? So you've opened the pull request. You've gotten some feedback. Maybe even made some more changes and made some more commits on that branch. Once you've reached a consensus that it's in a good place, you merge. When you merge, you're taking the branch you created and the commits on that branch and putting them back into master. So all of those snapshots are in the production branch. So just remember the five basic steps for the GitHub workflow. Create a branch. Make some commits. Open up a pull request. Collaborate and merge your branch."
+  }
+]

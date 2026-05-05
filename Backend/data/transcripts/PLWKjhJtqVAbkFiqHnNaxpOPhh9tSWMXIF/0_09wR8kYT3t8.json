@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "09wR8kYT3t8",
+    "title": "Git & GitHub: Cloning & Working Locally",
+    "url": "https://www.youtube.com/watch?v=09wR8kYT3t8",
+    "start": 0.0,
+    "end": 65.4,
+    "text": "All right, so we've talked about Git and GitHub. We've talked about how to use GitHub and how to introduce changes to projects. But we haven't really talked about how you would actually work on those projects on your own computer in your own text editor or IDE. To do that, you need to clone the repository. Now, we've talked about branching, we've talked about forking. So those are ways of making copies of code. When you clone, you're also making a copy of the code. But first, let's talk about what working locally means. When you're working on GitHub.com, you're working totally on what's called the remote repository. But part of what's cool about Git is that it's distributed, which means you can have a copy of the entire project on your own computer with no network connection and continue your work. But to do that, you have to work locally on your own machine. When you clone, you can do it easily from GitHub.com, either in an IDE, in GitHub Desktop app, or using the terminal."
+  },
+  {
+    "video_index": 0,
+    "video_id": "09wR8kYT3t8",
+    "title": "Git & GitHub: Cloning & Working Locally",
+    "url": "https://www.youtube.com/watch?v=09wR8kYT3t8",
+    "start": 65.4,
+    "end": 107.7,
+    "text": "That brings down a copy to your local computer. You can still communicate with the remote repository that will still be stored on GitHub.com. You'll have to sync these changes manually. They don't happen automatically. And also, you should know that your coworkers, your colleagues, are also communicating with the remote repository. So when you push up changes from your local copy of the repository, when you push those up to GitHub, someone else can pull those changes to their own local environment and see your changes or continue work. So just to recap, when you want to bring our repository down and work on it in your own development environment, you'll clone the repository."
+  }
+]

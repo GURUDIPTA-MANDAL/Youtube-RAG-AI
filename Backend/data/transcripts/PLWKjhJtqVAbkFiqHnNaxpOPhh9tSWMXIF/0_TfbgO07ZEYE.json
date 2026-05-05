@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "TfbgO07ZEYE",
+    "title": "Git & GitHub: 2-Step Commit",
+    "url": "https://www.youtube.com/watch?v=TfbgO07ZEYE",
+    "start": 0.3,
+    "end": 66.8,
+    "text": "All right, so you've made commits, you understand that a commit ID is a big deal, and now we're going to talk about a two-step commit, why you have to use get add and get commit. Now remember, when we make a commit ID, that is pretty permanent, right? That's in history. So this section over here is our log of commits. It's like a story of all of the changes you've made to put together your code base. But first we have to get there, right? So you're working locally and you make some changes, say you make changes to an index.html and to a CSS file. But you don't really want those to be stored together. The changes that you made were not logically related in any way. That's okay. That's what get add is for. Get lets you choose exactly which files you want to include in the next commit. So let's say we want to do the index first. So we'll get add index.html and it'll move that file in get metadata to the staging area. Get knows that when you run get commit, only to include the index file, not the CSS file."
+  },
+  {
+    "video_index": 0,
+    "video_id": "TfbgO07ZEYE",
+    "title": "Git & GitHub: 2-Step Commit",
+    "url": "https://www.youtube.com/watch?v=TfbgO07ZEYE",
+    "start": 66.8,
+    "end": 87.6,
+    "text": "So any files in the working directory, if you want them to be included in the commit, you need to use get add first. Once they're in the staging area, get's going to include them in the next commit once you run get commit. And then all of those files, that snapshot of the repository, including your changes are stored with that 40 character shot one hash in history."
+  }
+]

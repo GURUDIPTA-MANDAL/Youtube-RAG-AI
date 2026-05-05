@@ -1,0 +1,79 @@
+[
+  {
+    "index": 0,
+    "video_id": "vR-y_2zWrIE",
+    "title": "Git & GitHub: Introduction to Git & GitHub",
+    "url": "https://www.youtube.com/watch?v=vR-y_2zWrIE",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_vR-y_2zWrIE.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "2GO1a1vgNrc",
+    "title": "Git & GitHub: Branching and the GitHub Workflow",
+    "url": "https://www.youtube.com/watch?v=2GO1a1vgNrc",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_2GO1a1vgNrc.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "4VY0kHqIqyU",
+    "title": "Git & GitHub: GitHub Workflow for Open Source",
+    "url": "https://www.youtube.com/watch?v=4VY0kHqIqyU",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_4VY0kHqIqyU.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "09wR8kYT3t8",
+    "title": "Git & GitHub: Cloning & Working Locally",
+    "url": "https://www.youtube.com/watch?v=09wR8kYT3t8",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_09wR8kYT3t8.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "bbanTh2CoAY",
+    "title": "Git & GitHub: Most Used Git Commands",
+    "url": "https://www.youtube.com/watch?v=bbanTh2CoAY",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_bbanTh2CoAY.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "JXM7MO2GgGg",
+    "title": "Git & GitHub: How Commits Work",
+    "url": "https://www.youtube.com/watch?v=JXM7MO2GgGg",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_JXM7MO2GgGg.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "TfbgO07ZEYE",
+    "title": "Git & GitHub: 2-Step Commit",
+    "url": "https://www.youtube.com/watch?v=TfbgO07ZEYE",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_TfbgO07ZEYE.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "tYOl25gyuvk",
+    "title": "Git & GitHub: Merging",
+    "url": "https://www.youtube.com/watch?v=tYOl25gyuvk",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_tYOl25gyuvk.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "sfT0WrChMrM",
+    "title": "Git & GitHub: Merge Conflicts",
+    "url": "https://www.youtube.com/watch?v=sfT0WrChMrM",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_sfT0WrChMrM.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "PBtApBmgc1M",
+    "title": "Git & GitHub: Rebasing",
+    "url": "https://www.youtube.com/watch?v=PBtApBmgc1M",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_PBtApBmgc1M.mp3"
+  },
+  {
+    "index": 0,
+    "video_id": "XiFYShmnI4k",
+    "title": "Git & GitHub: Undoing Commits",
+    "url": "https://www.youtube.com/watch?v=XiFYShmnI4k",
+    "filepath": "./data\\audio\\PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF\\0_XiFYShmnI4k.mp3"
+  }
+]

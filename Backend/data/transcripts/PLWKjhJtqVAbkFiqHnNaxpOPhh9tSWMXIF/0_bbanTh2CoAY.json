@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "bbanTh2CoAY",
+    "title": "Git & GitHub: Most Used Git Commands",
+    "url": "https://www.youtube.com/watch?v=bbanTh2CoAY",
+    "start": 0.0,
+    "end": 60.1,
+    "text": "All right, so we've talked about how you can clone a repository so you can work on it in your own development environment. Just in case you're interested in working with the command line a little bit, here are some of the more common commands that you would use with Git. Now these are just my opinion and you will need a lot more commands than just this but this will get you off to a good start. Git clone is what we talked about earlier. This is how you can clone a repository down to your local machine. You'll notice all of these start off with Git GIT. That's an important piece to remember. Now you don't have to memorize all of these at once but I do want to kind of explain them just a little bit. Git pull. Remember how we talked about the remote repository that everyone has their changes you know uploaded to that? When you run Git pull, you're bringing down the changes that some of your colleagues might have made and pushed up to the remote repository. Git branch is how you create a branch on your local machine. Remember we don't want to make commits on master. We"
+  },
+  {
+    "video_index": 0,
+    "video_id": "bbanTh2CoAY",
+    "title": "Git & GitHub: Most Used Git Commands",
+    "url": "https://www.youtube.com/watch?v=bbanTh2CoAY",
+    "start": 60.1,
+    "end": 124.0,
+    "text": "want to create a branch first. We check out to that branch with Git checkout. When we do that, we're letting Git know that any commits that are made. We want them to be on that specific branch. Git status is maybe my favorite command. You can run Git status at any time and it will tell you exactly what's going on. You can use this at any point in time. So following the GitHub workflow a little bit, we created a branch and we made some changes and we want to store them as commits. We use Git add before we use Git commit. Now we'll get into the complexity of this a little bit in the next video but it's important to know that it is a two step commit. Once you've made the changes locally, you can push them up to the remote repository just like you pulled them down with Git push. So again, you don't need to memorize all of these right now but just a little introduction so that maybe the command line isn't so scary."
+  }
+]

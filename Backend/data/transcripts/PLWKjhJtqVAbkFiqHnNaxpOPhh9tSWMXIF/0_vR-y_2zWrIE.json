@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "vR-y_2zWrIE",
+    "title": "Git & GitHub: Introduction to Git & GitHub",
+    "url": "https://www.youtube.com/watch?v=vR-y_2zWrIE",
+    "start": 0.7,
+    "end": 64.2,
+    "text": "Hi, I'm Brianna from Free Code Camp. Today, we're going to be talking about GIT and GIT Hub. How you use them, when you use them, and some of the differences between the two. To start off, let's talk about GIT. GIT is a version control software, which means while you're coding, you can save each little time you make a change. So if you make a mistake, you want to undo something or you just want to look back and see how it was before, you can do that with GIT. GIT is also open source. You can find GIT to download at GITSCM.com. They also have great resources for documentation. Now let's talk about GIT Hub. You've probably been on GIT Hub before for some free code camp things. Notice it there, you probably even have an account. GIT Hub is a collaboration website that interacts with GIT and works with it on the projects that you work on in your version control. It's hard to tell where the line is between what's GIT and what's GIT Hub. That's okay. You don't have to know. What you need to remember is you'll use GIT Hub to interact with GIT."
+  },
+  {
+    "video_index": 0,
+    "video_id": "vR-y_2zWrIE",
+    "title": "Git & GitHub: Introduction to Git & GitHub",
+    "url": "https://www.youtube.com/watch?v=vR-y_2zWrIE",
+    "start": 64.2,
+    "end": 68.2,
+    "text": "You'll use it to collaborate with your peers on projects using version control."
+  }
+]

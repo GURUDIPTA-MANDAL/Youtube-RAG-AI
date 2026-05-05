@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "PBtApBmgc1M",
+    "title": "Git & GitHub: Rebasing",
+    "url": "https://www.youtube.com/watch?v=PBtApBmgc1M",
+    "start": 0.0,
+    "end": 61.0,
+    "text": "So, we talked about merging, but there's another way that you can introduce your changes into a branch and that's with git rebase. Now, I do want to have a disclaimer here. When you use git rebase, you are changing history, but that might be your preference and it might be what your team chooses to do. So, let's talk about the differences. Say we have two branches working here, this is the git merge model, and there's a, b, c, and d on one branch, and e, f on a separate branch. Once we merge this branch into the other branch, the way that's going to appear in history is a, b, e, c, f, d. So, it's when the changes were made, it's accurate. But you might want your history to be reflective of a different nature. You might want your history to show when those changes were introduced and make it more linear. That's when you would use git rebase. With rebase, in the same situation, instead of merge, it will show the commences a, b, c, d, e, f in their logical order."
+  },
+  {
+    "video_index": 0,
+    "video_id": "PBtApBmgc1M",
+    "title": "Git & GitHub: Rebasing",
+    "url": "https://www.youtube.com/watch?v=PBtApBmgc1M",
+    "start": 61.0,
+    "end": 71.0,
+    "text": "Like I said, it's really a matter of preference and what your team chooses to do. So, just be sure to check with your collaborators and make sure you know which one you're expected to be working with."
+  }
+]

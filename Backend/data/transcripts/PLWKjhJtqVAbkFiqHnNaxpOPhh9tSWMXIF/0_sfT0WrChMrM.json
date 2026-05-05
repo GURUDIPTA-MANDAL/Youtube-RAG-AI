@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "sfT0WrChMrM",
+    "title": "Git & GitHub: Merge Conflicts",
+    "url": "https://www.youtube.com/watch?v=sfT0WrChMrM",
+    "start": 0.0,
+    "end": 61.5,
+    "text": "When I first learned Git, one of the most confusing topics to me was merge conflicts. It seems like I always found myself in a merge conflict. I didn't know why and I didn't know how to get out of it, but really they're not that complicated. A merge conflict occurs when there's been a change in the same file in the same line on the two branches you're trying to merge together. So here, for example, if we're working in index.html on two branches and there have been changes in line four in both files, that will generate a merge conflict. Now, for example, this is just one conflict. There could be multiple files or even multiple portions of the same file with conflicts. But for now, let's keep it simple. So Git tells you there's a conflict. What do you do next? My favorite next step is to run Git status. It's an easy way to clear my head and see exactly which files have the conflicts in them. Once I know what files look at, I open it up in my favorite text editor and I look for these merge conflict markers. Once you find the merge conflict"
+  },
+  {
+    "video_index": 0,
+    "video_id": "sfT0WrChMrM",
+    "title": "Git & GitHub: Merge Conflicts",
+    "url": "https://www.youtube.com/watch?v=sfT0WrChMrM",
+    "start": 61.5,
+    "end": 87.2,
+    "text": "markers, all you need to do is pick the version of code that you'd like to keep and get rid of the merge conflict markers. One version will be above equal signs and the other will be below. You can pick one, delete them both, or create something totally new. Git doesn't care. Just make sure the code looks the way you want it to and get rid of the merge conflict markers. Save those changes and commit them and Git will know the merge conflict has resolved."
+  }
+]

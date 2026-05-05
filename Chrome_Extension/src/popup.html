@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlaylistSearch</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 13px;
+      background: #fff;
+      color: #1a1a1a;
+    }
+
+    .header {
+      background: #ff0000;
+      color: #fff;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .header-logo { font-size: 20px; }
+    .header-title { font-size: 15px; font-weight: 700; }
+
+    .tabs { display: flex; border-bottom: 1px solid #eee; }
+    .tab {
+      flex: 1;
+      padding: 9px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: #777;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+    .tab.active { color: #ff0000; border-bottom-color: #ff0000; }
+    .tab:hover:not(.active) { background: #f9f9f9; color: #333; }
+
+    .panel { display: none; padding: 14px 16px; }
+    .panel.active { display: block; }
+
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .status-label { color: #555; font-size: 12px; }
+    .status-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #ddd;
+      display: inline-block;
+      margin-right: 5px;
+    }
+    .status-dot.green { background: #43a047; }
+    .status-dot.red   { background: #e53935; }
+    .status-dot.amber { background: #fb8c00; }
+
+    .playlist-list { margin-top: 10px; }
+    .playlist-item {
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin-bottom: 6px;
+      font-size: 11px;
+    }
+    .playlist-id { font-weight: 700; font-family: monospace; color: #333; }
+    .playlist-meta { color: #888; margin-top: 2px; }
+
+    .empty-msg { color: #aaa; font-size: 12px; text-align: center; padding: 16px 0; }
+
+    .field { margin-bottom: 12px; }
+    .field label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .field input, .field select {
+      width: 100%;
+      padding: 7px 10px;
+      border: 1.5px solid #ddd;
+      border-radius: 6px;
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .field input:focus, .field select:focus { border-color: #ff0000; }
+
+    .save-btn {
+      width: 100%;
+      padding: 9px;
+      background: #ff0000;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .save-btn:hover { background: #cc0000; }
+    .save-msg {
+      text-align: center;
+      font-size: 11px;
+      color: #43a047;
+      margin-top: 6px;
+      min-height: 16px;
+    }
+
+    .field-hint {
+      font-size: 10px;
+      color: #999;
+      margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <span class="header-logo">🔍</span>
+  <span class="header-title">PlaylistSearch</span>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-panel="status">Status</div>
+  <div class="tab" data-panel="settings">Settings</div>
+</div>
+
+<!-- Status panel -->
+<div class="panel active" id="panel-status">
+  <div class="status-row">
+    <span class="status-label">Backend API</span>
+    <span id="api-status">
+      <span class="status-dot" id="api-dot"></span>
+      <span id="api-status-text">Checking…</span>
+    </span>
+  </div>
+  <div class="status-row">
+    <span class="status-label">Current page</span>
+    <span id="page-type" style="font-size:12px;color:#777">—</span>
+  </div>
+
+  <div style="margin-top:12px;font-size:11px;font-weight:700;color:#555;
+              text-transform:uppercase;letter-spacing:0.5px;">
+    Indexed Playlists
+  </div>
+  <div class="playlist-list" id="playlist-list">
+    <div class="empty-msg">Loading…</div>
+  </div>
+</div>
+
+<!-- Settings panel -->
+<div class="panel" id="panel-settings">
+  <div class="field">
+    <label>Backend URL</label>
+    <input type="url" id="api-url" placeholder="http://localhost:8000">
+    <div class="field-hint">Where your FastAPI server is running</div>
+  </div>
+
+  <div class="field">
+    <label>API Key</label>
+    <input type="password" id="api-key" placeholder="your_secret_api_key">
+    <div class="field-hint">Must match API_KEY in your backend .env</div>
+  </div>
+
+  <div class="field">
+    <label>Whisper Model</label>
+    <select id="whisper-model">
+      <option value="tiny">tiny — fastest, less accurate</option>
+      <option value="base" selected>base — recommended</option>
+      <option value="small">small — more accurate</option>
+      <option value="medium">medium — slower, best quality</option>
+    </select>
+    <div class="field-hint">Larger models need more RAM and time</div>
+  </div>
+
+  <button class="save-btn" id="save-btn">Save Settings</button>
+  <div class="save-msg" id="save-msg"></div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

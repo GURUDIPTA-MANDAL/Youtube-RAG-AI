@@ -1,0 +1,11 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "JXM7MO2GgGg",
+    "title": "Git & GitHub: How Commits Work",
+    "url": "https://www.youtube.com/watch?v=JXM7MO2GgGg",
+    "start": 0.0,
+    "end": 53.8,
+    "text": "Let's talk a little bit about what exactly a commit is. Now we talked about a commit being a snapshot, and that's exactly what it is. A commit is represented by a 40-character SHA1 hash. And I wrote a couple little shortened versions over here. But in that 40-character, there's a lot more than just numbers and letters. There is a blob of the changes, so blobs represent files. So you may change it and say to index.html. GetStore is a blob of that file, which is a reduced version of that code in a very lightweight way. It also includes some metadata. It means who made the commit? What time did they make the commit? And what's the parent commit? What's the commit that was made right before this on this working branch? All of that information is stored and compressed in that 40-character SHA1 hash, which means that commit ID is very, very important."
+  }
+]

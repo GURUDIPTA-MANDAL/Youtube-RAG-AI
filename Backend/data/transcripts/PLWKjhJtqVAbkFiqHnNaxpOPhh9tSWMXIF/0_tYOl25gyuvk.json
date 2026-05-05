@@ -1,0 +1,11 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "tYOl25gyuvk",
+    "title": "Git & GitHub: Merging",
+    "url": "https://www.youtube.com/watch?v=tYOl25gyuvk",
+    "start": 0.0,
+    "end": 41.2,
+    "text": "So back to kind of the GitHub workflow, you create a branch, you make commits, you have a conversation and maybe add some more commits. What about when it's time to bring your changes back into master branch? That's when you merge your branch. Now there's a couple different ways to do it. In the pull request, you can merge directly on GitHub.com, so you would merge on the remote, bringing your branches changes and commits onto this master branch. You can also merge locally with Git Merch. Now merging by itself isn't that complex of a topic, but there are a lot of different ways you can merge and some problems you can run into. We'll get into those in some of our next videos."
+  }
+]

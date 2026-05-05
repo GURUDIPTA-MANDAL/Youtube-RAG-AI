@@ -1,0 +1,20 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "4VY0kHqIqyU",
+    "title": "Git & GitHub: GitHub Workflow for Open Source",
+    "url": "https://www.youtube.com/watch?v=4VY0kHqIqyU",
+    "start": 0.0,
+    "end": 61.0,
+    "text": "So, we talked about the GitHub workflow, how you branch, introduce changes on commits, and then merge your branch back into master. But that only works if you're working on a project that you have a right access to. Maybe you're working on a project that you don't have collaborator access to, like if I wanted to make changes on free code camp. That's when you would need the open source workflow, which includes forking. When you create a fork on GitHub.com, you're creating a copy of that repository, but under your own account, so you have right access. So let's say I fork free code camps repository. Now I have right access to it, I can make commits directly to that repository, but they can't see them on free code camp yet. That's okay. Once I create my own fork, then I'd make commits on my fork. I'd make the changes that I think free code camps should include. And then I can open a pull request from my fork directly to free code camps fork."
+  },
+  {
+    "video_index": 0,
+    "video_id": "4VY0kHqIqyU",
+    "title": "Git & GitHub: GitHub Workflow for Open Source",
+    "url": "https://www.youtube.com/watch?v=4VY0kHqIqyU",
+    "start": 61.0,
+    "end": 96.8,
+    "text": "The process is overall a little bit similar to the branching process, because it includes another copy of the code, making commits in a safe place, and then introducing them with a pull request. But the main difference is the ownership of the separate repositories. The original fork would be under free code camp. My fork would be under my name. When we're using the branching process, everything is still a part of that same repository. So just to review, this fork and pull workflow is really helpful in open source. It includes creating a fork of the repository, making commits there, and then opening a pull request against the original fork."
+  }
+]

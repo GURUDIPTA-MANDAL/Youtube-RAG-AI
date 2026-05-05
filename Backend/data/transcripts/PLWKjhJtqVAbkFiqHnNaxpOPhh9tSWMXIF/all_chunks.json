@@ -1,0 +1,182 @@
+[
+  {
+    "video_index": 0,
+    "video_id": "vR-y_2zWrIE",
+    "title": "Git & GitHub: Introduction to Git & GitHub",
+    "url": "https://www.youtube.com/watch?v=vR-y_2zWrIE",
+    "start": 0.7,
+    "end": 64.2,
+    "text": "Hi, I'm Brianna from Free Code Camp. Today, we're going to be talking about GIT and GIT Hub. How you use them, when you use them, and some of the differences between the two. To start off, let's talk about GIT. GIT is a version control software, which means while you're coding, you can save each little time you make a change. So if you make a mistake, you want to undo something or you just want to look back and see how it was before, you can do that with GIT. GIT is also open source. You can find GIT to download at GITSCM.com. They also have great resources for documentation. Now let's talk about GIT Hub. You've probably been on GIT Hub before for some free code camp things. Notice it there, you probably even have an account. GIT Hub is a collaboration website that interacts with GIT and works with it on the projects that you work on in your version control. It's hard to tell where the line is between what's GIT and what's GIT Hub. That's okay. You don't have to know. What you need to remember is you'll use GIT Hub to interact with GIT."
+  },
+  {
+    "video_index": 0,
+    "video_id": "vR-y_2zWrIE",
+    "title": "Git & GitHub: Introduction to Git & GitHub",
+    "url": "https://www.youtube.com/watch?v=vR-y_2zWrIE",
+    "start": 64.2,
+    "end": 68.2,
+    "text": "You'll use it to collaborate with your peers on projects using version control."
+  },
+  {
+    "video_index": 0,
+    "video_id": "2GO1a1vgNrc",
+    "title": "Git & GitHub: Branching and the GitHub Workflow",
+    "url": "https://www.youtube.com/watch?v=2GO1a1vgNrc",
+    "start": 0.0,
+    "end": 64.9,
+    "text": "Alright, so we've talked about Git and GitHub, but how do you actually get things done on GitHub? How do you go about creating a project and introducing change? This is the GitHub workflow. There are five basic steps that will walk you through how to introduce change. So let's say you're working on a project. That project would be stored in a GitHub repository, and all of the code that was in production is on a branch called master. Now, that's important. We don't ever want to make changes directly onto master. So the first thing we do is create another branch. When you create a branch, it's creating what feels like an exact replica of master. So you have a safe sandbox to make changes without affecting anything that's in production. After you create your ranch, you make some commits. Now, commits are sort of like making changes. Whenever you make a set of changes, you make it commit and it stores all of those changes by taking a snapshot of your repository, your project at that point in time. So if this circles a commit, you could make one tiny change"
+  },
+  {
+    "video_index": 0,
+    "video_id": "2GO1a1vgNrc",
+    "title": "Git & GitHub: Branching and the GitHub Workflow",
+    "url": "https://www.youtube.com/watch?v=2GO1a1vgNrc",
+    "start": 64.9,
+    "end": 131.0,
+    "text": "or you could make a few. Git lets you choose. Once you've made some commits to introduce your changes, you'd open up a pull request on GitHub.com. In this pull request, you're comparing the branch you made with another branch, like master. It gives you an opportunity to look at the differences between those two branches and show other people the differences as well. Once you do that and they see the changes, then you can collaborate on them. They might give you a thumbs up and say it looks great, or they might have some critiques and suggestions. And that's good. That's the point, right? So you've opened the pull request. You've gotten some feedback. Maybe even made some more changes and made some more commits on that branch. Once you've reached a consensus that it's in a good place, you merge. When you merge, you're taking the branch you created and the commits on that branch and putting them back into master. So all of those snapshots are in the production branch. So just remember the five basic steps for the GitHub workflow. Create a branch. Make some commits. Open up a pull request. Collaborate and merge your branch."
+  },
+  {
+    "video_index": 0,
+    "video_id": "4VY0kHqIqyU",
+    "title": "Git & GitHub: GitHub Workflow for Open Source",
+    "url": "https://www.youtube.com/watch?v=4VY0kHqIqyU",
+    "start": 0.0,
+    "end": 61.0,
+    "text": "So, we talked about the GitHub workflow, how you branch, introduce changes on commits, and then merge your branch back into master. But that only works if you're working on a project that you have a right access to. Maybe you're working on a project that you don't have collaborator access to, like if I wanted to make changes on free code camp. That's when you would need the open source workflow, which includes forking. When you create a fork on GitHub.com, you're creating a copy of that repository, but under your own account, so you have right access. So let's say I fork free code camps repository. Now I have right access to it, I can make commits directly to that repository, but they can't see them on free code camp yet. That's okay. Once I create my own fork, then I'd make commits on my fork. I'd make the changes that I think free code camps should include. And then I can open a pull request from my fork directly to free code camps fork."
+  },
+  {
+    "video_index": 0,
+    "video_id": "4VY0kHqIqyU",
+    "title": "Git & GitHub: GitHub Workflow for Open Source",
+    "url": "https://www.youtube.com/watch?v=4VY0kHqIqyU",
+    "start": 61.0,
+    "end": 96.8,
+    "text": "The process is overall a little bit similar to the branching process, because it includes another copy of the code, making commits in a safe place, and then introducing them with a pull request. But the main difference is the ownership of the separate repositories. The original fork would be under free code camp. My fork would be under my name. When we're using the branching process, everything is still a part of that same repository. So just to review, this fork and pull workflow is really helpful in open source. It includes creating a fork of the repository, making commits there, and then opening a pull request against the original fork."
+  },
+  {
+    "video_index": 0,
+    "video_id": "09wR8kYT3t8",
+    "title": "Git & GitHub: Cloning & Working Locally",
+    "url": "https://www.youtube.com/watch?v=09wR8kYT3t8",
+    "start": 0.0,
+    "end": 65.4,
+    "text": "All right, so we've talked about Git and GitHub. We've talked about how to use GitHub and how to introduce changes to projects. But we haven't really talked about how you would actually work on those projects on your own computer in your own text editor or IDE. To do that, you need to clone the repository. Now, we've talked about branching, we've talked about forking. So those are ways of making copies of code. When you clone, you're also making a copy of the code. But first, let's talk about what working locally means. When you're working on GitHub.com, you're working totally on what's called the remote repository. But part of what's cool about Git is that it's distributed, which means you can have a copy of the entire project on your own computer with no network connection and continue your work. But to do that, you have to work locally on your own machine. When you clone, you can do it easily from GitHub.com, either in an IDE, in GitHub Desktop app, or using the terminal."
+  },
+  {
+    "video_index": 0,
+    "video_id": "09wR8kYT3t8",
+    "title": "Git & GitHub: Cloning & Working Locally",
+    "url": "https://www.youtube.com/watch?v=09wR8kYT3t8",
+    "start": 65.4,
+    "end": 107.7,
+    "text": "That brings down a copy to your local computer. You can still communicate with the remote repository that will still be stored on GitHub.com. You'll have to sync these changes manually. They don't happen automatically. And also, you should know that your coworkers, your colleagues, are also communicating with the remote repository. So when you push up changes from your local copy of the repository, when you push those up to GitHub, someone else can pull those changes to their own local environment and see your changes or continue work. So just to recap, when you want to bring our repository down and work on it in your own development environment, you'll clone the repository."
+  },
+  {
+    "video_index": 0,
+    "video_id": "bbanTh2CoAY",
+    "title": "Git & GitHub: Most Used Git Commands",
+    "url": "https://www.youtube.com/watch?v=bbanTh2CoAY",
+    "start": 0.0,
+    "end": 60.1,
+    "text": "All right, so we've talked about how you can clone a repository so you can work on it in your own development environment. Just in case you're interested in working with the command line a little bit, here are some of the more common commands that you would use with Git. Now these are just my opinion and you will need a lot more commands than just this but this will get you off to a good start. Git clone is what we talked about earlier. This is how you can clone a repository down to your local machine. You'll notice all of these start off with Git GIT. That's an important piece to remember. Now you don't have to memorize all of these at once but I do want to kind of explain them just a little bit. Git pull. Remember how we talked about the remote repository that everyone has their changes you know uploaded to that? When you run Git pull, you're bringing down the changes that some of your colleagues might have made and pushed up to the remote repository. Git branch is how you create a branch on your local machine. Remember we don't want to make commits on master. We"
+  },
+  {
+    "video_index": 0,
+    "video_id": "bbanTh2CoAY",
+    "title": "Git & GitHub: Most Used Git Commands",
+    "url": "https://www.youtube.com/watch?v=bbanTh2CoAY",
+    "start": 60.1,
+    "end": 124.0,
+    "text": "want to create a branch first. We check out to that branch with Git checkout. When we do that, we're letting Git know that any commits that are made. We want them to be on that specific branch. Git status is maybe my favorite command. You can run Git status at any time and it will tell you exactly what's going on. You can use this at any point in time. So following the GitHub workflow a little bit, we created a branch and we made some changes and we want to store them as commits. We use Git add before we use Git commit. Now we'll get into the complexity of this a little bit in the next video but it's important to know that it is a two step commit. Once you've made the changes locally, you can push them up to the remote repository just like you pulled them down with Git push. So again, you don't need to memorize all of these right now but just a little introduction so that maybe the command line isn't so scary."
+  },
+  {
+    "video_index": 0,
+    "video_id": "JXM7MO2GgGg",
+    "title": "Git & GitHub: How Commits Work",
+    "url": "https://www.youtube.com/watch?v=JXM7MO2GgGg",
+    "start": 0.0,
+    "end": 53.8,
+    "text": "Let's talk a little bit about what exactly a commit is. Now we talked about a commit being a snapshot, and that's exactly what it is. A commit is represented by a 40-character SHA1 hash. And I wrote a couple little shortened versions over here. But in that 40-character, there's a lot more than just numbers and letters. There is a blob of the changes, so blobs represent files. So you may change it and say to index.html. GetStore is a blob of that file, which is a reduced version of that code in a very lightweight way. It also includes some metadata. It means who made the commit? What time did they make the commit? And what's the parent commit? What's the commit that was made right before this on this working branch? All of that information is stored and compressed in that 40-character SHA1 hash, which means that commit ID is very, very important."
+  },
+  {
+    "video_index": 0,
+    "video_id": "TfbgO07ZEYE",
+    "title": "Git & GitHub: 2-Step Commit",
+    "url": "https://www.youtube.com/watch?v=TfbgO07ZEYE",
+    "start": 0.3,
+    "end": 66.8,
+    "text": "All right, so you've made commits, you understand that a commit ID is a big deal, and now we're going to talk about a two-step commit, why you have to use get add and get commit. Now remember, when we make a commit ID, that is pretty permanent, right? That's in history. So this section over here is our log of commits. It's like a story of all of the changes you've made to put together your code base. But first we have to get there, right? So you're working locally and you make some changes, say you make changes to an index.html and to a CSS file. But you don't really want those to be stored together. The changes that you made were not logically related in any way. That's okay. That's what get add is for. Get lets you choose exactly which files you want to include in the next commit. So let's say we want to do the index first. So we'll get add index.html and it'll move that file in get metadata to the staging area. Get knows that when you run get commit, only to include the index file, not the CSS file."
+  },
+  {
+    "video_index": 0,
+    "video_id": "TfbgO07ZEYE",
+    "title": "Git & GitHub: 2-Step Commit",
+    "url": "https://www.youtube.com/watch?v=TfbgO07ZEYE",
+    "start": 66.8,
+    "end": 87.6,
+    "text": "So any files in the working directory, if you want them to be included in the commit, you need to use get add first. Once they're in the staging area, get's going to include them in the next commit once you run get commit. And then all of those files, that snapshot of the repository, including your changes are stored with that 40 character shot one hash in history."
+  },
+  {
+    "video_index": 0,
+    "video_id": "tYOl25gyuvk",
+    "title": "Git & GitHub: Merging",
+    "url": "https://www.youtube.com/watch?v=tYOl25gyuvk",
+    "start": 0.0,
+    "end": 41.2,
+    "text": "So back to kind of the GitHub workflow, you create a branch, you make commits, you have a conversation and maybe add some more commits. What about when it's time to bring your changes back into master branch? That's when you merge your branch. Now there's a couple different ways to do it. In the pull request, you can merge directly on GitHub.com, so you would merge on the remote, bringing your branches changes and commits onto this master branch. You can also merge locally with Git Merch. Now merging by itself isn't that complex of a topic, but there are a lot of different ways you can merge and some problems you can run into. We'll get into those in some of our next videos."
+  },
+  {
+    "video_index": 0,
+    "video_id": "sfT0WrChMrM",
+    "title": "Git & GitHub: Merge Conflicts",
+    "url": "https://www.youtube.com/watch?v=sfT0WrChMrM",
+    "start": 0.0,
+    "end": 61.5,
+    "text": "When I first learned Git, one of the most confusing topics to me was merge conflicts. It seems like I always found myself in a merge conflict. I didn't know why and I didn't know how to get out of it, but really they're not that complicated. A merge conflict occurs when there's been a change in the same file in the same line on the two branches you're trying to merge together. So here, for example, if we're working in index.html on two branches and there have been changes in line four in both files, that will generate a merge conflict. Now, for example, this is just one conflict. There could be multiple files or even multiple portions of the same file with conflicts. But for now, let's keep it simple. So Git tells you there's a conflict. What do you do next? My favorite next step is to run Git status. It's an easy way to clear my head and see exactly which files have the conflicts in them. Once I know what files look at, I open it up in my favorite text editor and I look for these merge conflict markers. Once you find the merge conflict"
+  },
+  {
+    "video_index": 0,
+    "video_id": "sfT0WrChMrM",
+    "title": "Git & GitHub: Merge Conflicts",
+    "url": "https://www.youtube.com/watch?v=sfT0WrChMrM",
+    "start": 61.5,
+    "end": 87.2,
+    "text": "markers, all you need to do is pick the version of code that you'd like to keep and get rid of the merge conflict markers. One version will be above equal signs and the other will be below. You can pick one, delete them both, or create something totally new. Git doesn't care. Just make sure the code looks the way you want it to and get rid of the merge conflict markers. Save those changes and commit them and Git will know the merge conflict has resolved."
+  },
+  {
+    "video_index": 0,
+    "video_id": "PBtApBmgc1M",
+    "title": "Git & GitHub: Rebasing",
+    "url": "https://www.youtube.com/watch?v=PBtApBmgc1M",
+    "start": 0.0,
+    "end": 61.0,
+    "text": "So, we talked about merging, but there's another way that you can introduce your changes into a branch and that's with git rebase. Now, I do want to have a disclaimer here. When you use git rebase, you are changing history, but that might be your preference and it might be what your team chooses to do. So, let's talk about the differences. Say we have two branches working here, this is the git merge model, and there's a, b, c, and d on one branch, and e, f on a separate branch. Once we merge this branch into the other branch, the way that's going to appear in history is a, b, e, c, f, d. So, it's when the changes were made, it's accurate. But you might want your history to be reflective of a different nature. You might want your history to show when those changes were introduced and make it more linear. That's when you would use git rebase. With rebase, in the same situation, instead of merge, it will show the commences a, b, c, d, e, f in their logical order."
+  },
+  {
+    "video_index": 0,
+    "video_id": "PBtApBmgc1M",
+    "title": "Git & GitHub: Rebasing",
+    "url": "https://www.youtube.com/watch?v=PBtApBmgc1M",
+    "start": 61.0,
+    "end": 71.0,
+    "text": "Like I said, it's really a matter of preference and what your team chooses to do. So, just be sure to check with your collaborators and make sure you know which one you're expected to be working with."
+  },
+  {
+    "video_index": 0,
+    "video_id": "XiFYShmnI4k",
+    "title": "Git & GitHub: Undoing Commits",
+    "url": "https://www.youtube.com/watch?v=XiFYShmnI4k",
+    "start": 0.0,
+    "end": 60.9,
+    "text": "You may have asked yourself at some point using Git, how do I undo that last commit? We've talked about how a commit has a commit ID and that it's really important because of the metadata that it includes. Now, let's talk about some ways that you can undo commits and especially which ways are the safest. My best suggestion for changing a commit in any way is to use git-revert. Now, when you revert, you're not technically undoing the commit. You're actually creating a new commit with the exact opposite changes of whichever commit you'd like to undo. This means the commit ID remains unchanged, so it's absolutely safe to do even on commits that you've already pushed to the remote repository. There's other ways that you can undo commits too, but you need to be a little bit more careful about how you do them and if you're actually using these commands on public commits, commits that are on the remote repository. Git reset is a very popular way to do it and in a lot of use cases is the best way."
+  },
+  {
+    "video_index": 0,
+    "video_id": "XiFYShmnI4k",
+    "title": "Git & GitHub: Undoing Commits",
+    "url": "https://www.youtube.com/watch?v=XiFYShmnI4k",
+    "start": 60.9,
+    "end": 88.8,
+    "text": "Now, maybe not so much to undo history but to change the words that you use in a commit message is commit amend. Git cherry pick doesn't so much undo a commit but it's important to know that it does actually change that commit ID. So to recap, if you want to undo a commit, git-revert is the best way to go. There are other options but always be cognizant if you're changing a commit ID if that commit is on the remote repository."
+  }
+]
