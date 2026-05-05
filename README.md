@@ -136,5 +136,9 @@ Configure it:
 ---
 
 
+#CHROME EXTENSION
+<img width="596" height="377" alt="image" src="https://github.com/user-attachments/assets/5414c27c-51ed-4aef-b558-747c437a0a11" />
+
+
 
 
