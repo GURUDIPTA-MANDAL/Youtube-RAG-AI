@@ -54,7 +54,7 @@ def download_single_video(entry: dict, output_dir: str) -> dict | None:
         }
 
     except Exception as e:
-        print(f"  ❌ [{index}] {title[:50]} — {e}")
+        print(f"   [{index}] {title[:50]} — {e}")
         return None
 
 
