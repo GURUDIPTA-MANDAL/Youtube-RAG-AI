@@ -1,7 +1,6 @@
 """
 STEP 4 — step4_search_engine.py  (v2)
 RAG search: embed query → cosine similarity → LLM answer.
-Uses nomic-embed-text by default (faster than bge-m3).
 """
 
 import os
