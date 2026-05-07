@@ -109,7 +109,7 @@ def transcribe_audio_files(
         json.dump(all_chunks, f, indent=2, ensure_ascii=False)
 
     total = time.time() - total_start
-    print(f"\n✅ Done! {len(all_chunks)} chunks in {total:.1f}s → {combined_path}")
+    print(f"\n Done! {len(all_chunks)} chunks in {total:.1f}s → {combined_path}")
     return all_chunks
 
 
