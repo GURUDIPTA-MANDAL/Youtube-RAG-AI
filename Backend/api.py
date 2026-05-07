@@ -1,5 +1,5 @@
 """
-STEP 5 — api.py  (v2 — faster indexing with skip logic)
+STEP 5 — api.py
 FastAPI REST API powering the Chrome extension.
 
 Key improvements:
@@ -163,13 +163,13 @@ def _run_indexing_pipeline(req: IndexRequest):
             "chunk_count": len(df),
             "finished_at": datetime.utcnow().isoformat(),
         })
-        print(f"[{pid}] ✅ Done — {len(df)} chunks indexed")
+        print(f"[{pid}] Done — {len(df)} chunks indexed")
 
     except Exception as e:
         indexing_jobs[pid]["status"]  = "error"
         indexing_jobs[pid]["error"]   = str(e)
         indexing_jobs[pid]["message"] = str(e)
-        print(f"[{pid}] ❌ Error: {e}")
+        print(f"[{pid}]  Error: {e}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
