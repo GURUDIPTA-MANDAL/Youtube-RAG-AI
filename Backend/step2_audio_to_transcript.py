@@ -17,7 +17,7 @@ def get_whisper_model(model_size: str = "base") -> WhisperModel:
     """
     print(f"Loading faster-whisper '{model_size}' on CPU...")
     model = WhisperModel(model_size, device="cpu", compute_type="int8")
-    print("Model loaded ✅")
+    print("Model loaded ")
     return model
 
 
