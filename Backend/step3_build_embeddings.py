@@ -1,7 +1,6 @@
 """
-STEP 3 — step3_build_embeddings.py  (v2 — faster embeddings)
-Uses nomic-embed-text (3x faster than bge-m3) with larger batch sizes.
-Includes skip logic to avoid re-embedding already processed videos.
+STEP 3 — step3_build_embeddings.py 
+Uses nomic-embed-text
 """
 
 import os
@@ -82,7 +81,7 @@ def build_embeddings(
             batch_embeddings = create_embedding(batch)
             embeddings.extend(batch_embeddings)
         except Exception as e:
-            print(f"  ⚠ Error on batch {i}: {e}. Retrying...")
+            print(f"  Error on batch {i}: {e}. Retrying...")
             time.sleep(3)
             batch_embeddings = create_embedding(batch)
             embeddings.extend(batch_embeddings)
